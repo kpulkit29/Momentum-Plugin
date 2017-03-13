@@ -1,0 +1,50 @@
+body{
+  font-family: Satisfy;
+  color:white;
+}
+h1{
+	font-size: 100px;
+}
+input{
+   border: 1px dotted #999;
+   height: 30px;
+  border-radius: 20;
+  margin-left: 500px;
+  -webkit-appearance: none;
+}
+.quote,.author{
+	font-size: 20px;
+}
+hr{
+  border:0.1px solid grey ;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+input::-webkit-input-placeholder {
+color: red !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: red !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: red !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: red !important;  
+}
+.clock{
+	margin-top: 300px;
+}
+.weather{
+	margin-top: 40px;
+	float:right;
+}
+li{
+	margin:10px;
+}
+input{
+	color:red;
+}
